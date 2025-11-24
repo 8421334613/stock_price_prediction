@@ -1,0 +1,5 @@
+
+- Use walk-forward validation for realistic performance estimates.
+- Avoid lookahead bias: ensure features are created only from information available at prediction time.
+- For trading strategy simulation, convert predictions into signals (e.g., long if predicted next-day return > threshold) and compute P&L, Sharpe ratio, max drawdown.
+- Include transaction costs and slippage assumptions.
